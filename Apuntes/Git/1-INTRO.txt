@@ -5,3 +5,5 @@ FETCH: La API Fetch proporciona una interfaz JavaScript para acceder y manipular
 PULL:El principal objetivo del sistema pull es el reparto uniforme de las órdenes de producción a lo largo de un período dado de tiempo
 
 PUSH:Las notificaciones Push App, nos permiten mantener activas las Apps, aumentado la tasa de retención de los usuarios evitando así que la eliminen de sus dispositivos y ayudan a aumentar la interacción sin que el usuario este utilizando el móvil.
+
+Sebastian el trabajo que lienas arribas has hecho esta correcto.
