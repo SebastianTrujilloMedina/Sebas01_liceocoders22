@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+     #ejUno { 
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition:  width 3s;
+ }
+     
+    #ejUno:hover { 
+        width: 300px;
+     } 
+
+     #ejDos:hover{ 
+            width: 100px;
+            height: 100px;
+            background:red; 
+            transition: width 0.2s; 
+            transition-timing-function: ease-in-out;
+        }
+         #ejDos:hover {
+             width: 300px; 
+     } 
+     #ejTres { 
+         width:100px; 
+         height:100px;
+          background: red; 
+          transition: width 2s;
+          transition-delay: 0.5s; 
+
+        }
+         #ejTres:hover {
+              width: 300px;
+             } 
+
+        #ejCuatro {
+             width:100px;
+            height: 100px;
+            background: red;
+             } 
+             #ejCuatro:hover {
+                    background: blue;
+                    transform:rotate(70deg); 
+                    } 
+
+        #ejCinco {
+          width: 100px;
+          height: 100px;
+          background: red;
+          transition: width 2s ease-in-out 0.5s;
+        
+        }
+        
+        #ejCinco:hover {
+          width: 400px;
+        }            
+
+    </style>
+</head>
+<body>
+    <h1> Agregue un efecto de transición de 2 segundos para los cambios de ancho del elemento div.
+         </h1> 
+    <div id="ejUno">Esto es un div</div>
+
+    <h1> Especifique que la transición del elemento <div> debe tener una curva de velocidad de "entrada y salida". </h1>
+        <div id="ejDos">Este es un div</div>
+
+    <h1> Especifique que la transición del elemento div debe tener un retraso de "0,5" segundos antes de comenzar. </h1> 
+        <div id="ejTres"></div>
+     
+    <h1> Agregue un efecto de transición de 2 segundos para el fondo y transforme los cambios del elemento div. </h1>
+         <div id="ejCuatro">Esto es un div</div> 
+         
+    <h1>Usando la propiedad abreviada de transición, especifique los cambios de ancho para el elemento <div> que deben tener: duración de "2" segundos, curva de velocidad de "entrada-salida" y un retraso de "0,5" segundos antes de comenzar.
+        </h1>
+        <div id="ejCinco">esto es un div</div>    
+        
+</body>
+</html>
